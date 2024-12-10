@@ -1,0 +1,111 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2810,len:0x178c
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xcb8
+load:0x403cb700,len:0x2db0
+entry 0x403c8914
+[0;32mI (27) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Dec  9 2024 22:20:29[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.1[0m
+[0;32mI (34) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (39) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (49) boot: Enabling RNG early entropy source...[0m
+[0;32mI (54) boot: Partition Table:[0m
+[0;32mI (58) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (65) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (72) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (80) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (87) boot: End of partition table[0m
+[0;32mI (91) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=277f0h (161776) map[0m
+[0;32mI (129) esp_image: segment 1: paddr=00037818 vaddr=3fc9a900 size=049a8h ( 18856) load[0m
+[0;32mI (133) esp_image: segment 2: paddr=0003c1c8 vaddr=40374000 size=03e50h ( 15952) load[0m
+[0;32mI (138) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=9ef9ch (651164) map[0m
+[0;32mI (260) esp_image: segment 4: paddr=000defc4 vaddr=40377e50 size=129a8h ( 76200) load[0m
+[0;32mI (286) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (286) boot: Disabling RNG early entropy source...[0m
+[0;32mI (298) cpu_start: Multicore app[0m
+[0;32mI (308) cpu_start: Pro cpu start user code[0m
+[0;32mI (308) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (308) app_init: Application information:[0m
+[0;32mI (311) app_init: Project name:     CryptoDisplay[0m
+[0;32mI (316) app_init: App version:      v5.3.1-dirty[0m
+[0;32mI (321) app_init: Compile time:     Dec  9 2024 22:20:23[0m
+[0;32mI (327) app_init: ELF file SHA256:  513a0b7ce...[0m
+[0;32mI (333) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (338) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (343) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (348) efuse_init: Chip rev:         v0.1[0m
+[0;32mI (353) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (360) heap_init: At 3FCA3490 len 00046280 (280 KiB): RAM[0m
+[0;32mI (366) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (372) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (378) heap_init: At 600FE100 len 00001EE8 (7 KiB): RTCRAM[0m
+[0;32mI (385) spi_flash: detected chip: generic[0m
+[0;32mI (389) spi_flash: flash io: dio[0m
+[0;33mW (393) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (406) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (417) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (424) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (431) main_task: Started on CPU0[0m
+[0;32mI (441) main_task: Calling app_main()[0m
+[0;32mI (461) app: ESP_WIFI_MODE_STA[0m
+[0;32mI (461) pp: pp rom version: e7ae62f[0m
+[0;32mI (461) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (471) wifi:wifi driver task: 3fcad824, prio:23, stack:6656, core=0[0m
+[0;32mI (481) wifi:wifi firmware version: ccaebfa[0m
+[0;32mI (481) wifi:wifi certification version: v7.0[0m
+[0;32mI (481) wifi:config NVS flash: enabled[0m
+[0;32mI (481) wifi:config nano formating: disabled[0m
+[0;32mI (481) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (491) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (491) wifi:Init management short buffer num: 32[0m
+[0;32mI (491) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (501) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (501) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (511) wifi:Init static rx buffer num: 10[0m
+[0;32mI (511) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (521) wifi_init: rx ba win: 6[0m
+[0;32mI (521) wifi_init: accept mbox: 6[0m
+[0;32mI (521) wifi_init: tcpip mbox: 32[0m
+[0;32mI (531) wifi_init: udp mbox: 6[0m
+[0;32mI (531) wifi_init: tcp mbox: 6[0m
+[0;32mI (531) wifi_init: tcp tx win: 5760[0m
+[0;32mI (541) wifi_init: tcp rx win: 5760[0m
+[0;32mI (541) wifi_init: tcp mss: 1440[0m
+[0;32mI (551) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (551) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (561) phy_init: phy_version 680,a6008b2,Jun  4 2024,16:41:10[0m
+[0;32mI (601) wifi:mode : sta (f4:12:fa:e6:34:f0)[0m
+[0;32mI (601) wifi:enable tsf[0m
+[0;32mI (601) app: wifi_init_sta finished.[0m
+[0;32mI (611) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (611) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (621) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (621) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (631) wifi:<ba-add>idx:0 (ifx:0, 70:97:41:4a:c0:81), tid:0, ssn:0, winSize:64[0m
+[0;32mI (631) wifi:<ba-add>idx:1 (ifx:0, 70:97:41:4a:c0:81), tid:5, ssn:0, winSize:64[0m
+[0;32mI (641) wifi:connected with TELUSA6E1, aid = 8, channel 11, BW20, bssid = 70:97:41:4a:c0:81[0m
+[0;32mI (641) wifi:security: WPA2-PSK, phy: bgn, rssi: -37[0m
+[0;32mI (651) wifi:pm start, type: 1[0m
+
+[0;32mI (651) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (661) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (681) wifi:AP's beacon interval = 102400 us, DTIM period = 3[0m
+[0;32mI (3171) esp_netif_handlers: sta ip: 192.168.1.121, mask: 255.255.255.0, gw: 192.168.1.254[0m
+[0;32mI (3171) app: got ip:192.168.1.121[0m
+[0;32mI (3171) app: connected to ap SSID:TELUSA6E1 password:e5b9GTYX5fK4[0m
+[0;32mI (3241) app: backlight off[0m
+[0;32mI (3741) app: backlight on[0m
+[0;32mI (5281) app: HTTP GET Status = 200, content_length = -1[0m
+[0;32mI (5281) app: 7b 22 62 69 74 63 6f 69 6e 22 3a 7b 22 75 73 64 [0m
+[0;32mI (5281) app: 22 3a 39 36 39 39 35 2c 22 63 61 64 22 3a 31 33 [0m
+[0;32mI (5291) app: 37 34 35 35 7d 2c 22 6d 6f 6e 65 72 6f 22 3a 7b [0m
+[0;32mI (5291) app: 22 75 73 64 22 3a 31 37 36 2c 22 63 61 64 22 3a [0m
+[0;32mI (5301) app: 32 34 39 7d 7d [0m
+HTTP_EVENT_ON_DATA: {"bitcoin":{"usd":96995,"cad":137455},"monero":{"usd":176,"cad":249}}

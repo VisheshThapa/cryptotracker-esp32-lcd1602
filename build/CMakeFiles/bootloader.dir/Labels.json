@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

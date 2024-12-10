@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/CMakeFiles/bootloader
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/CMakeFiles/bootloader.rule
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/CMakeFiles/bootloader-complete.rule
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/vish/Coding/esp-idf/projects/CryptoDisplay/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
