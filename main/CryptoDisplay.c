@@ -42,6 +42,7 @@
 #define ESP_WIFI_SSID "example_ssid"
 #define ESP_WIFI_PASS "example_password"
 #define COIN_GECKO_API_KEY "exmaple_apikey"
+#define I2C_ADDRESS 0x3F
 #define ESP_MAXIMUM_RETRY 10
 
 #define MAX_HTTP_RECV_BUFFER 512
@@ -209,11 +210,10 @@ void lcd1602_task(void *pvParameters) {
   // Set up I2C
   i2c_master_init();
   i2c_port_t i2c_num = I2C_MASTER_NUM;
-  uint8_t address = 0x3F;
 
   // Set up the SMBus
   smbus_info_t *smbus_info = smbus_malloc();
-  ESP_ERROR_CHECK(smbus_init(smbus_info, i2c_num, address));
+  ESP_ERROR_CHECK(smbus_init(smbus_info, i2c_num, I2C_ADDRESS));
   ESP_ERROR_CHECK(smbus_set_timeout(smbus_info, 1000 / portTICK_PERIOD_MS));
 
   // Set up the LCD1602 device with backlight off
